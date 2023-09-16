@@ -62,13 +62,3 @@ tahmin = model.predict(X_test)
 
 skor = accuracy_score(y_test,tahmin)
 print(skor)
-
-model2 = RandomForestClassifier(random_state = 0)
-
-model2.fit(X_train,y_train)
-tahmin2 = model2.predict(X_test)
-
-skor2 = accuracy_score(y_test,tahmin2)
-print(skor2)
-
-
